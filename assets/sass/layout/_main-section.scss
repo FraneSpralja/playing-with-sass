@@ -1,0 +1,35 @@
+/*MAIN LAYOUT*/
+
+.main {
+    width: 100%;
+    position: absolute;
+    left: -50%;
+    top: 9.5vh;
+    transform: translateX(50%);
+}
+
+.main__container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.main__title {
+    color: $white;
+    text-align: center;
+}
+
+.main__title-emphasis {
+    font-family: $playfair;
+    font-weight: $bold;
+}
+
+.main__title-emphasis--size-xxl {
+    font-size: $xxxx-large;
+}
+
+.main__button {
+    margin: -20px;
+}
